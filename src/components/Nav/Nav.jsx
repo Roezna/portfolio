@@ -26,20 +26,20 @@ export default function Navegacion() {
                 </div>
 
                 <div className='links'>
-                    <a href='#home' className='a'>Home</a>
-                    <a href='#about' className='a'>About me</a>
-                    <a href='#projects' className='a'>Projects</a>
-                    <a href='#skills' className='a'>Skills</a>
-                    <a href='#contact' className='a'>Contact</a>
+                    <a href='#home' className='a'>Inicio</a>
+                    <a href='#about' className='a'>Rodrigo</a>
+                    <a href='#projects' className='a'>Proyectos</a>
+                    <a href='#skills' className='a'>Habilidades</a>
+                    <a href='#contact' className='a'>Contacto</a>
                     <FontAwesomeIcon icon={faBars} className='boton' onClick={e => handleClickNav(e)}/>
                 </div>
 
                 {mobile && <div className='linksMobile'>
-                    <a href='#home' className='aMobile'>Home</a>
-                    <a href='#about' className='aMobile'>About me</a>
-                    <a href='#projects' className='aMobile'>Projects</a>
-                    <a href='#skills' className='aMobile'>Skills</a>
-                    <a href='#contact' className='aMobile'>Contact</a>
+                    <a href='#home' className='aMobile' onClick={handleClickNav}>Inicio</a>
+                    <a href='#about' className='aMobile'  onClick={handleClickNav}>Rodrigo</a>
+                    <a href='#projects' className='aMobile'  onClick={handleClickNav}>Proyectos</a>
+                    <a href='#skills' className='aMobile'  onClick={handleClickNav}>Habilidades</a>
+                    <a href='#contact' className='aMobile'  onClick={handleClickNav}>Contacto</a>
                 </div>
                 }
 
