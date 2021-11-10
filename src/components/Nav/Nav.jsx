@@ -45,7 +45,7 @@ export default function Navegacion() {
                     <a href='#rodrigo' className='a'>Rodrigo</a>
                     <a href='#proyectos' className='a'>Proyectos</a>
                     <a href='#skills' className='a'>Habilidades</a>
-                    <a href='#contact' className='a'>Contacto</a>
+                    <a href='#contacto' className='a'>Contacto</a>
                     <FontAwesomeIcon icon={faBars} className='boton' onClick={e => handleClickNav(e)}/>
                 </div>
 
@@ -54,7 +54,7 @@ export default function Navegacion() {
                     <a href='#rodrigo' className='aMobile'  onClick={handleClickNav}>Rodrigo</a>
                     <a href='#proyectos' className='aMobile'  onClick={handleClickNav}>Proyectos</a>
                     <a href='#skills' className='aMobile'  onClick={handleClickNav}>Habilidades</a>
-                    <a href='#contact' className='aMobile'  onClick={handleClickNav}>Contacto</a>
+                    <a href='#contacto' className='aMobile'  onClick={handleClickNav}>Contacto</a>
                 </div>
                 }
 

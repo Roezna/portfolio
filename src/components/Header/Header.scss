@@ -103,15 +103,25 @@
         background-color: rgba(0, 0, 0, 0.589);
         border-radius: 20px;
 
+    
+
         .text{
             text-align: center;
             font-size: 2em;
             color: white;
             margin: 5px;
+            @media (max-width:600px) {
+                margin: 0;
+            }
         }
         .cargo{
             font-size: 1.7em;
             font-family: $fuente-principal;
+
+            @media (max-width:600px) {
+                font-size: 1.3em;
+            }
+           
         }
         .color{
             color : $color-principal;
