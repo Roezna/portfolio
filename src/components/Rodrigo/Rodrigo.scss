@@ -1,0 +1,34 @@
+@import '../../scss/base/variables';
+
+#rodrigo{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .titulo{
+     @include title;
+
+    }
+
+    .resumen{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        .textoPrevio{
+            display: flex;
+            width: 100%;
+            max-width: 1000px;
+            margin-bottom: 20px;
+            font-family: $fuente-principal;
+
+            .intro{
+                font-size: 1.5em;
+                text-align: center;
+                margin: 10px;
+            }
+        }
+    }
+}

@@ -27,19 +27,9 @@ $bold: 700;
 
 //boton
 
-@mixin boton-primario {
-   background-color:$color-principal;
-   color: white;
-   font-size: 1.2em;
-   border: none;
-   padding: 5px 10px;
-   font-weight: $regularPlus;
-   cursor: pointer;
-   box-shadow: 2px 2px 5px $color-terciario;
-   border: 1px solid $color-principal;
-
-   &:hover{
-       background-color: white;
-       color: $color-principal;
-   }
+@mixin title {
+    color: $color-principal;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 20px;
   }

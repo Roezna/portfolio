@@ -3,7 +3,7 @@ import imagenPropia from '../../images/rodrigo.png'
 export default function Header (){
 
     return(
-        <div className='header'>
+        <div className='header' id='home'>
                
                 <div className='imagen'>
                     <img src={imagenPropia} alt="" className='medidasImg' />
@@ -19,7 +19,7 @@ export default function Header (){
                     </div>
                 </div>
                 <div className='titleHeader'>
-                    <span className='text'>Mi nombre es Rodrigo y soy </span>
+                    <span className='text'>Mi nombre es Rodrigo, <br />y soy </span>
                     <span className='text'><b className='cargo color'>Desarrollador Web</b></span>
                 </div>
         </div>

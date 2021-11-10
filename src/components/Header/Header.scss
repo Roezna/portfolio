@@ -14,6 +14,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    margin-top: 55px;
 
     .titulo{
         display: flex;
@@ -115,7 +116,6 @@
         .color{
             color : $color-principal;
         }
-
 
 
     }
