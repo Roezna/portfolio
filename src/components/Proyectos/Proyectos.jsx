@@ -1,6 +1,7 @@
 import './Proyectos.scss'
 import gesSalud from '../../images/GesSalud.PNG'
 import more from '../../images/more.PNG'
+import titato from '../../images/titato.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 
@@ -19,6 +20,12 @@ export default function Proyectos(){
             tecnologias : 'React, Redux, Node, Express, JavaScript, CSS, PostgreSql, Sequelize',
             img : more,
             link : 'https://recipes-m0r3.web.app/'
+        },
+        {
+            title : 'Ti-Ta-Tó',
+            tecnologias : 'React, JavaScript, CSS',
+            img : titato,
+            link : 'https://titato-ultimate.web.app/'
         }
     ]
 
