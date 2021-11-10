@@ -1,0 +1,65 @@
+@import '../../scss/base/variables';
+
+#skills{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .titulo{
+        @include title;
+    }
+    .textoPrevio{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 1000px;
+        margin-bottom: 20px;
+        font-family: $fuente-principal;
+
+        .intro{
+            font-size: 1.5em;
+            text-align: center;
+            margin: 10px;
+        }
+    }
+
+    .habilidades{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        max-width: 1200px;
+        flex-wrap: wrap;
+
+        .imagen{
+            width: 300px;
+            margin: 20px;
+            border-radius: 10%;
+        }
+        .css{
+            background-color: rgb(206, 206, 255);
+        }
+        .html{
+            background-color: rgb(255, 225, 214);
+        }
+        .react{
+            background-color: rgb(224, 242, 255);
+        }
+        .redux{
+            background-color: rgb(221, 222, 255);
+        }
+        .sass{
+            background-color: rgb(255, 228, 255);
+        }
+        .node{
+            background-color: rgb(240, 240, 240);
+        }
+        .postgresql{
+            background-color: rgb(255, 253, 223);
+        }
+        .sequelize{
+            background-color: rgb(255, 219, 219);
+        }
+    }
+
+}
