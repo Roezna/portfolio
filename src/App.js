@@ -2,6 +2,8 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Navegacion from './components/Nav/Nav';
+import Proyectos from './components/Proyectos/Proyectos';
+import Rodrigo from './components/Rodrigo/Rodrigo';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
      
      <Navegacion />
      <Header />
+     <Rodrigo /> 
+     <Proyectos />
 
     </div>
   );

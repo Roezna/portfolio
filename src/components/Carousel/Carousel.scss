@@ -1,0 +1,8 @@
+
+.carousel{
+    width: 100%;
+    max-width: 1200px;
+}
+.carousel-item{
+    transition: transform 3s ease, opacity .5s ease-out
+}
